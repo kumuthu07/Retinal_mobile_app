@@ -1,6 +1,6 @@
 # retinal_realm_fyp
 
-RetinalRealm - mobil application to detect eye diseases
+RetinalRealm - mobile application to detect eye diseases
 
 ## Getting Started
 
