@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227812983472",
+    "project_id": "retinalrealmfyp",
+    "storage_bucket": "retinalrealmfyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227812983472:android:ae66c5c79b07f4181d3175",
+        "android_client_info": {
+          "package_name": "retinalRealm.com.retinal_realm_fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD44bn9rTSGlIiEX_UKXrzZaVBSTRVJtv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
