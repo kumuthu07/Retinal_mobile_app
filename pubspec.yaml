@@ -1,0 +1,71 @@
+name: retinal_realm_fyp
+description: "RetinalRealm - mobil application to detect eye diseases"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.27.2
+  http: ^0.13.3
+  dialog_flowtter:
+#  tflite: ^1.1.2
+  tflite_flutter: ^0.10.1
+  archive: ^3.5.0
+#  tflite_flutter_helper: ^0.2.1
+  get: ^4.6.5
+
+#  camera: ^0.11.2
+  permission_handler: ^12.0.1
+  google_nav_bar: ^5.0.6
+  url_launcher: ^6.0.12
+  webview_flutter: ^4.0.7
+  path_provider: ^2.0.2
+  #firebase_core: ^1.10.6
+  google_sign_in: ^6.2.1
+  firebase_auth: ^4.18.0
+  mailer: ^5.1.0
+  image_picker: ^1.0.7
+  image: ^3.2.0
+  cloud_firestore: ^4.15.10
+#  flutter_plugin_android_lifecycle: ^2.0.19
+  #http: ^0.14.0
+  #tflite_flutter: ^0.9.0
+  #tflite_flutter_helper: ^0.3.1
+  #tflite_flutter: ^0.10.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Salsa
+      fonts:
+        - asset: assets/fonts/Salsa-Regular.ttf
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/labels.txt
+    - assets/eye_model_float321002.tflite
+    - assets/dialog_flow_auth.json
+
